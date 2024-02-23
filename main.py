@@ -54,3 +54,6 @@ if __name__ == "__main__":
 
     stock_data = fetch_stock_data(ticker, start_date, end_date)
     plot_stock_chart(stock_data)
+
+    for _ in range(100):
+        print("FUCK")
